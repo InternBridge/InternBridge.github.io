@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     enrollButtons.forEach(button => {
         button.addEventListener('click', function() {
             const course = this.getAttribute('data-course');
-            const googleFormUrl = "https://forms.gle/JvMJEYWnVA9g9oMs7"
+            const googleFormUrl = "https://forms.gle/rgtKWXqdoUes3fQF6"
             
             // Add the selected course as a prefilled answer
             const prefilledUrl = `${googleFormUrl}?usp=pp_url&entry.XXXXXX=${encodeURIComponent(course)}`;
